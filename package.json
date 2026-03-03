@@ -1,0 +1,26 @@
+{
+  "name": "workspace_ct",
+  "version": "1.0.0",
+  "description": "모핀 2026년 1분기 백엔드 개발자 어플리케이션 구현 능력 테스트",
+  "main": "index.js",
+  "scripts": {
+    "start": "node binance-price-server/src/server.js",
+    "dev": "node --watch binance-price-server/src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LitaHartJeon/mofin-2026-1q-backend-test.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/LitaHartJeon/mofin-2026-1q-backend-test/issues"
+  },
+  "homepage": "https://github.com/LitaHartJeon/mofin-2026-1q-backend-test#readme",
+  "dependencies": {
+    "express": "^5.2.1",
+    "ws": "^8.19.0"
+  }
+}
